@@ -1,0 +1,76 @@
+body{
+    margin-left: 0%;
+}
+
+#logo{
+height: 49px;
+width: 107px;
+margin-left: 0;
+}
+
+#homeContent {
+    background-image: url('https://images.seattletimes.com/wp-content/uploads/2023/02/imagesusersiqjWHBFdfxIUiMUJUOb93ahIv0piFq5T3pJF0qzS8rF9LjsWaQ-1x-1.jpg?d=1560x1041');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    /* Optionally, you can add more styling here, such as padding or margin */
+    min-height: 110vh;
+    width: 100%;
+}
+#subwaytext{
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 286px;
+    width: 400px;
+}
+#ordernow{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.uppermenu{
+    background-color: rgb(31, 30, 30);
+}
+#swiggy{
+    margin-top: 10px;
+    width: 148;
+    height: 38px;
+    margin-left: 80px;
+} n 
+#aboutus {
+        /* background-image: url("https://subway.in/static/media/about-img.dd9212b8016e503b9a28.webp"); */
+        /* background-position: center center; */
+        /* margin-top: 30px; */
+    }
+#zomato{
+    margin-top: 10px;
+    display: grid;
+    width: 148;
+    height: 38px;
+    margin-left: 80px;
+}
+.youtubevideo{
+    padding: 40px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    /*align-items: center; /* Center content vertically */
+}
+
+.youtubevideo iframe {
+    border-radius: 10px; /* Adjust the value as needed */
+}
+
+/* #form{
+    justify-content: center;
+} */
+.small-input {
+    width: 200px; /* Adjust the width as desired */
+    margin: 0 auto; /* This centers the input field horizontally */
+}
+
+
+
+@media (max-width: 768px) {
+    #homeContent {
+        background-size: contain; /* Adjust for smaller screens */
+    }
+    
+}
